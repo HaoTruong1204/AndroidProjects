@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_clear_finished"
+        android:icon="@drawable/ic_clear"
+        android:title="Clear finished tasks"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_use_template"
+        android:icon="@drawable/ic_template"
+        android:title="Use Template"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_import_todoist"
+        android:icon="@drawable/ic_lock"
+        android:title="Import from Todoist"
+        android:enabled="false"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear_pomodoros"
+        android:icon="@drawable/ic_check"
+        android:title="Clear act pomodoros"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_hide_tasks"
+        android:icon="@drawable/ic_lock"
+        android:title="Hide tasks"
+        android:enabled="false"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear_all_tasks"
+        android:icon="@drawable/ic_clear_all"
+        android:title="Clear all tasks"
+        android:showAsAction="never" />
+</menu>
